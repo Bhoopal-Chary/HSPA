@@ -1,0 +1,25 @@
+.row {
+    display: flex;
+    justify-content: flex-start; /* Aligns the card to the left */
+    margin: 20px; /* Adds space around the row */
+}
+
+.card {
+    max-width: 400px; /* Limits the width of the card */
+    border: 1px solid #ddd; /* Adds a border around the card */
+    border-radius: 10px; /* Rounds the corners of the card */
+    padding: 20px; /* Adds space inside the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for a 3D effect */
+    background-color: white; /* Sets the card's background color */
+}
+
+.propImg {
+    width: 100%; /* Ensures the image fills the width of the card */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 5px; /* Rounds the image corners slightly */
+}
+
+h1, h2, h3 {
+    margin: 10px 0; /* Adds space between text elements */
+    text-align: left; /* Centers the text within the card */
+}
